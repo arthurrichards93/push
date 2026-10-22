@@ -89,3 +89,7 @@ def test_baseline_pipeline_with_synthetic_data():
 				"### `test_baseline_pipeline_with_synthetic_data` passed",
 				file=summary,
 			)
+
+def test_github_push():
+    """Simple test to confirm GitHub Actions runs."""
+    assert 2 + 2 == 4
